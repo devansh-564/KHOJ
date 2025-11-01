@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f4f6f8;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1995ad;
+  padding: 12px 20px;
+  color: white;
+}
+nav button {
+  margin: 0 6px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #10707f;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+nav button:hover {
+  background: #a1d6e2;
+  color: #1995ad;
+}
+
+/* General Container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #1995ad;
+  text-align: center;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+button {
+  background: #1995ad;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #10707f;
+}
+
+/* Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Landing Page */
+.landing {
+  text-align: center;
+}
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1995ad;
+  color: white;
+  padding: 14px 24px;
+}
+.landing-nav button {
+  margin-left: 8px;
+  background: #10707f;
+}
+.landing-content {
+  padding: 60px 20px;
+}
+.landing-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.landing-content p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Info cards on landing */
+.info-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.info-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+.info-card h3 {
+  color: #1995ad;
+  margin-bottom: 10px;
+}
+.info-card li,
+.info-card ol {
+  color: #333;
+  font-size: 0.95rem;
+}
+.link {
+  color: #1995ad;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.link:hover {
+  color: #10707f;
+}
