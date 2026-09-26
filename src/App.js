@@ -11,7 +11,7 @@ function App() {
   const [users, setUsers] = useState(() =>
     JSON.parse(localStorage.getItem("users") || "[]")
   );
-  const [currentUser, setCurrentUser] = useState(null);
+  const [, setCurrentUser] = useState(null);
   const [selectedState, setSelectedState] = useState("");
   const [filterState, setFilterState] = useState("");
   const [filterDistrict, setFilterDistrict] = useState("");
